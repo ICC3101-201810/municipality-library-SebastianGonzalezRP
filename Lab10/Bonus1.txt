@@ -1,0 +1,2 @@
+El problema con el archivo dll es que en los constructores de address y Person, se requiere uno del otro para poder construirlo y como no hay nada
+inicializado en el archivo no se puede crear elementos de este tipo por que no se puede hacer referencia a objetos inexistentes en el momento de creacion
